@@ -132,7 +132,7 @@ class Run:
             truncation_strategy: any,
             incomplete_details: any,
             usage: any,
-            response_foramt:any,
+            response_format:any,
             started_at: int or None = None,
             cancelled_at: int or None = None,
             failed_at: int or None = None,
