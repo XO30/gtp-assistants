@@ -127,6 +127,7 @@ class Run:
             metadata: dict,
             temperature: any,
             top_p: any,
+            max_completion_tokens: any,
             started_at: int or None = None,
             cancelled_at: int or None = None,
             failed_at: int or None = None,
