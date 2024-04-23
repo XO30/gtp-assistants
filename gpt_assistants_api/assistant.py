@@ -145,6 +145,7 @@ class Assistant:
                  metadata: dict,
                  top_p: any,
                  temperature: any,
+                 response_format: any,
                  ):
         self.id = id
         self.object = object
