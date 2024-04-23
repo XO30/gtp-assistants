@@ -133,6 +133,7 @@ class Run:
             incomplete_details: any,
             usage: any,
             response_format:any,
+            tool_choice: any,
             started_at: int or None = None,
             cancelled_at: int or None = None,
             failed_at: int or None = None,
