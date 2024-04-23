@@ -125,6 +125,7 @@ class Run:
             tools: list,
             file_ids: list,
             metadata: dict,
+            temperature: any,
             started_at: int or None = None,
             cancelled_at: int or None = None,
             failed_at: int or None = None,
