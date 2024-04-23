@@ -129,6 +129,7 @@ class Run:
             top_p: any,
             max_completion_tokens: any,
             max_prompt_tokens: any,
+            truncation_strategy: any,
             started_at: int or None = None,
             cancelled_at: int or None = None,
             failed_at: int or None = None,
