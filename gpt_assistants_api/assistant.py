@@ -143,6 +143,7 @@ class Assistant:
                  tools: list,
                  file_ids: list,
                  metadata: dict,
+                 top_p: any,
                  ):
         self.id = id
         self.object = object
