@@ -144,6 +144,7 @@ class Assistant:
                  file_ids: list,
                  metadata: dict,
                  top_p: any,
+                 temperature: any,
                  ):
         self.id = id
         self.object = object
