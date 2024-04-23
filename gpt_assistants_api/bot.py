@@ -69,4 +69,5 @@ class Bot:
         answer = thread.list_messages()[0]
         text = answer.content[0]['text']['value']
         annotations = answer.content[0]['text']['annotations']
+        print(answer.content)
         return text, annotations
