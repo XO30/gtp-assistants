@@ -66,9 +66,7 @@ class Bot:
         thread = self._create_thread(conversation_id)
         run = thread.create_run(self.assistant.id)
         _ = self._poll_status(run)
-        answer = thread.list_messages()[0]
-        print(answer)
+        answer = thread.list_messages()[-1]
         text = answer.content[0]['text']['value']
         annotations = answer.content[0]['text']['annotations']
-        print(answer.content)
         return text, annotations
